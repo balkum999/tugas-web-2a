@@ -35,6 +35,7 @@ body {
     /* membuat list navigasi horizontal dan mengatur jarak antar menu  */
     display: inline-block;
     margin-right: 10px;
+    margin-left: 20px;
     margin-top: 20px;
 }
 
@@ -46,6 +47,47 @@ body {
 
 /* membuat animasi saat link di sorot  */
 .nav li a:hover {
-    background-color: orange;
+    background-color: black;
     color: white;
+}
+
+/* css untuk banner */
+.banner {
+    height: 400px;
+    /*background-color: skyblue;*/
+    /*berikan file gambar*/
+    background-image: url(../img/mc.webp);
+    /*atur ukuran gambar*/
+    background-size: cover;
+    /*mengatur posisi gambar horisontal dan vertikal*/
+    background-position: 0px 0px;
+    /*mengatur garis tepi tebal jenis warna*/
+    border-top: 5px solid navy;
+    border-bottom: 5px solid skyblue;
+}
+
+/*untuk isi*/
+.isi {
+    padding: 20px;
+}
+ 
+.isi h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+ 
+.isi .penulis {
+    font-size: 14px;
+    /*agar agak naik*/
+    margin-top: -10px;
+}
+ 
+.isi .penulis a {
+    text-decoration: none;
+    color: skyblue;
+}
+ 
+.isi p {
+    font-size: 16px;
+    margin-bottom: 10px;
 }
