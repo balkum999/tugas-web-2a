@@ -62,8 +62,8 @@ body {
     /*mengatur posisi gambar horisontal dan vertikal*/
     background-position: 0px 0px;
     /*mengatur garis tepi tebal jenis warna*/
-    border-top: 5px solid navy;
-    border-bottom: 5px solid skyblue;
+    border-top: 3px solid black;
+    border-bottom: 3px solid black;
 }
 
 /*untuk isi*/
@@ -90,4 +90,17 @@ body {
 .isi p {
     font-size: 16px;
     margin-bottom: 10px;
+}
+
+/*untuk footer*/
+.footer {
+    background-color: black;
+    height: 50px;
+    padding: 2px;
+}
+ 
+.footer .copyright {
+    font-size: 16px;
+    color: white;
+    text-align: center;
 }
