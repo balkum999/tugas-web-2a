@@ -1,11 +1,23 @@
-body {
-    padding-top: 40px;
-}
-
 .megatron {
-    margin-top: 80px;
+    margin-top: 40px;
+    padding: 2rem 2rem;
+    background-color: #dfeced;
 }
 
-.artikel {
+#about {
+    margin-top: 30px;
+}
+
+#portfolio {
     margin-top: 40px;
+}
+
+#portofolio .img-thumbnail {
+  width: 200px !important;
+  height: 200px !important;
+  object-fit: contain; /* Gambar utuh, tidak terpotong, tidak gepeng */
+  background-color: #ffffff;
+  padding: 10px; /* Memberikan sedikit jarak di dalam bingkai */
+  display: block;
+  margin: 0 auto; /* Supaya otomatis di tengah */
 }
