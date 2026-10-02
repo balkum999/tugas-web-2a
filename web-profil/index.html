@@ -1,144 +1,201 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Web Profil Iqbal</title>
-    <!-- link untuk style css -->
-    <link rel="stylesheet" href="css/style.css">
-    <!-- link css bootstrap  -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<title>
+		Web Profil Iqbal
+	</title>
+	<!-- css bootstrap dan bootstrap js -->
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+
+	<!-- css animasi -->
+	<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+	<!-- css animasi -->
+
+	<!-- untuk style.css -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- untuk style.css -->
 </head>
-<body>
-    <!-- navbar atau menu -->
-    <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#">Welcome To My Website</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ms-auto">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-                <a class="nav-link" href="#">Products</a>
-                <a class="nav-link" href="#">Services</a>
-                <a class="nav-link" href="#about">About</a>
-                <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-            </div>
-            </div>
-        </div>     
-    </nav>
+<body data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
 
-    <section class="megatron text-center">
-        <img src="img/woy.jpeg" width="10%" class="rounded-circle img-thumbnail">
-        <h1 class="display-4">Iqbal Khaqiqi</h1>
-        <p class="lead">Network Engineer | Sysadmin | Cloud Computing</p>
-    </section>
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Iqbal Web</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+    <!-- pindah menu ke kanan -->
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portofolio">Portofolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<!-- navbar -->
+  
+<!-- jumbotron -->
+<section class="megatron text-center">
+	<img src="img/woy.jpeg" width="200" class="rounded-circle img-thumbnail">
+	<h1 class="display-4">Iqbal Khaqiqi</h1>
+	<p class="lead">Network Engineer | Sysadmin | Cloud Engineer</p>
+</section>
+<!-- jumbotron -->
 
-     <section id="about">
-        <div class="row text-center mt-5">
+<!-- about -->
+<section id="about">
+	<div class="container">
+
+		<div class="row text-center mb-4">
 			<div class="col aos-init aos-animate" data-aos="flip-up" data-aos-duration="3000">
 				<h2 class="display-6">About Me</h2>
 			</div>
 		</div>
-        <!-- bagian artikel -->
-        <div class="container artikel">
-            <div class="row">
-                <!-- column 1 -->
-                <div class="col-md">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                </div>
 
-                <!-- column 2 -->
-                <div class="col-md">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-                        quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                        consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-                        cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-                    </p>
-                </div>
+		<div class="row">
+			<div class="col aos-init aos-animate" data-aos="fade-right" data-aos-duration="2000">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+			<div class="col aos-init aos-animate" data-aos="fade-left" data-aos-duration="2000">
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+		</div>
 
 
-            </div>
-        </div>
-      </section>
-      <section id="portofolio" class="py-5">
-        <div class="container">
+	</div>
+</section>
+<!-- about -->
 
-            <div class="row text-center mb-4">
-                <div class="col aos-init aos-animate" data-aos="zoom-out" data-aos-duration="3000">
-                    <h2 class="display-6">Portofolio</h2>
-                </div>
-            </div>
+<!-- portofolio -->
+<section id="portofolio">
+	<div class="container">
 
-            <!-- Baris Pertama -->
-            <div class="row mb-3 text-center">
-                <div class="col-md-3 col-6 mb-3 d-flex justify-content-center">
-                    <div style="width: 200px; height: 200px;" class="d-flex align-items-center justify-content-center border bg-white">
-                        <img src="img/ansible.jpg" class="img-fluid" style="max-width: 100%; max-height: 100%; object-fit: contain;" alt="Ansible">
-                    </div>
-                </div>
-                <div class="col-md-3 col-6 mb-3 d-flex justify-content-center">
-                    <div style="width: 200px; height: 200px;" class="d-flex align-items-center justify-content-center border bg-white">
-                        <img src="img/aws.jpg" class="img-fluid" style="max-width: 100%; max-height: 100%; object-fit: contain;" alt="AWS">
-                    </div>
-                </div>
-                <div class="col-md-3 col-6 mb-3 d-flex justify-content-center">
-                    <div style="width: 200px; height: 200px;" class="d-flex align-items-center justify-content-center border bg-white">
-                        <img src="img/debian.jpg" class="img-fluid" style="max-width: 100%; max-height: 100%; object-fit: contain;" alt="Debian">
-                    </div>
-                </div>
-                <div class="col-md-3 col-6 mb-3 d-flex justify-content-center">
-                    <div style="width: 200px; height: 200px;" class="d-flex align-items-center justify-content-center border bg-white">
-                        <img src="img/windows-server.png" class="img-fluid" style="max-width: 100%; max-height: 100%; object-fit: contain;" alt="Windows Server">
-                    </div>
-                </div>
-            </div>
+		<div class="row text-center mb-4">
+			<div class="col aos-init aos-animate" data-aos="zoom-out" data-aos-duration="3000">
+				<h2 class="display-6">Portofolio</h2>
+			</div>
+		</div>
 
-            <!-- Baris Kedua -->
-            <div class="row mb-3 text-center">
-                <div class="col-md-3 col-6 mb-3 d-flex justify-content-center">
-                    <div style="width: 200px; height: 200px;" class="d-flex align-items-center justify-content-center border bg-white">
-                        <img src="img/cisco.jpg" class="img-fluid" style="max-width: 100%; max-height: 100%; object-fit: contain;" alt="Cisco">
-                    </div>
-                </div>
-                <div class="col-md-3 col-6 mb-3 d-flex justify-content-center">
-                    <div style="width: 200px; height: 200px;" class="d-flex align-items-center justify-content-center border bg-white">
-                        <img src="img/mikrotik.jpeg" class="img-fluid" style="max-width: 100%; max-height: 100%; object-fit: contain;" alt="MikroTik">
-                    </div>
-                </div>
-                <div class="col-md-3 col-6 mb-3 d-flex justify-content-center">
-                    <div style="width: 200px; height: 200px;" class="d-flex align-items-center justify-content-center border bg-white">
-                        <img src="img/lks prov.png" class="img-fluid" style="max-width: 100%; max-height: 100%; object-fit: contain;" alt="LKS">
-                    </div>
-                </div>
-                <div class="col-md-3 col-6 mb-3 d-flex justify-content-center">
-                    <div style="width: 200px; height: 200px;" class="d-flex align-items-center justify-content-center border bg-white">
-                        <img src="img/lks kab.png" class="img-fluid" style="max-width: 100%; max-height: 100%; object-fit: contain;" alt="Sertifikat">
-                    </div>
-                </div>
-            </div>
+		<div class="row mb-2 text-center">
+			<div class="col aos-init aos-animate" data-aos="flip-left" data-aos-duration="2000">
+				<img src="img/ansible.jpg" class="img-thumbnail">
+			</div>
+			<div class="col aos-init aos-animate" data-aos="flip-left" data-aos-duration="1000">
+				<img src="img/aws.jpg" class="img-thumbnail">
+			</div>
+			<div class="col aos-init aos-animate" data-aos="flip-left" data-aos-duration="1000">
+				<img src="img/cisco.jpg" class="img-thumbnail">
+			</div>
+			<div class="col aos-init aos-animate" data-aos="flip-left" data-aos-duration="1000">
+				<img src="img/debian.jpg" class="img-thumbnail">
+			</div>
+		</div>
 
-        </div>
-      </section>
-    <!-- buat footer -->
-    <footer class="bg-dark text-white text-center py-3 mt-5">
-        Created by Iqbal Khaqiqi - 2026
-    </footer>
-    <script>
+		<div class="row mb-2 text-center">
+			<div class="col aos-init aos-animate" data-aos="flip-right" data-aos-duration="1500">
+				<img src="img/mikrotik.jpeg" class="img-thumbnail">
+			</div>
+			<div class="col aos-init aos-animate" data-aos="flip-right" data-aos-duration="1500">
+				<img src="img/windows-server.png" class="img-thumbnail">
+			</div>
+			<div class="col aos-init aos-animate" data-aos="flip-right" data-aos-duration="1500">
+				<img src="img/lks kab.png" class="img-thumbnail">
+			</div>
+			<div class="col aos-init aos-animate" data-aos="flip-right" data-aos-duration="1500">
+				<img src="img/lks prov.png" class="img-thumbnail">
+			</div>
+		</div>
+
+	</div>
+</section>
+<!-- portofolio -->
+
+<!-- contact -->
+<section id="contact">
+	<div class="container">
+		<div class="row text-center mb-4">
+			<div class="col aos-init" data-aos="flip-up" data-aos-duration="3000">				
+				<h2 class="display-6">Contact</h2>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col aos-init" data-aos="zoom-in" data-aos-duration="3000">
+				<form>
+
+				  <div class="mb-3">
+				    <label for="exampleInputEmail1" class="form-label">Email address</label>
+				    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+				  </div>
+
+				  <div class="mb-3">
+				    <label for="exampleInputName" class="form-label">Name</label>
+				    <input type="text" class="form-control" id="exampleInputName">
+				  </div>
+
+				  <div class="mb-3">
+				    <label for="exampleInputGender" class="form-label">Gender</label>
+				    <select class="form-select" aria-label="Default select example">
+					  <option value="L" selected="selected">Male</option>
+					  <option value="P">Female</option>
+					</select>
+				  </div>
+
+				  <div class="mb-3">
+				    <label for="exampleInputAddress" class="form-label">Address</label>
+				    <textarea class="form-control" rows="4"></textarea>
+				  </div>
+				  
+				  <button type="submit" class="btn btn-primary btn-lg">Submit</button> 
+				  <button type="button" class="btn btn-danger btn-lg">Reset</button>
+				</form>
+			</div>
+		</div>
+
+	</div>
+</section>
+<!-- contact -->
+
+<!-- footer -->
+<footer class="footer bg-dark mt-5 p-2">
+	<p class="lead text-white text-center mt-1">
+		Created with ♥ Iqbal Khaqiqi © 2026 Alright Reserved.
+	</p>
+</footer>
+<!-- footer -->
+
+
+	<!-- js animasi -->
+	<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+	<script>
 	  AOS.init();
-	</script>
-    <!-- link js bootstrap  -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-</body>
-</html>
+	</script>	
+	<!-- js animasi -->
+
+</body></html>
