@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasir JS</title>
+</head>
+<body>
+
+    <h2>Tugas Praktikum: Program Kasir</h2>
+
+    <script>
+        // 1-3. Input data menggunakan prompt
+    let nama = prompt("Masukkan nama barang (contoh: sepatu):", "sepatu");
+    let harga = parseInt(prompt("Masukkan Harga barang (contoh: 30000):", "30000"));
+    let qty = parseInt(prompt("Masukkan jumlah beli (qty):", "3"));
+
+    // Proses perhitungan total
+    let total = harga * qty;
+    let diskon = 0;
+
+    // 4. Jika pembelian lebih dari 50.000 dapat diskon 10%
+    if (total > 50000) {
+        diskon = total * 0.10;
+    }
+
+    let pembayaran = total - diskon;
+
+    // 5. Tampilan Struk belanja menggunakan document.write
+    // Tag <pre> digunakan agar susunan spasi persis seperti di teks
+    document.write("<pre>");
+    document.write("++++++++++++++++++++++++++++++++<br>");
+    document.write("+                              +<br>");
+    document.write("+ nama  Harga  qty  total      +<br>");
+    document.write("+ " + nama + "<br>");
+    document.write("+       " + harga + "  " + qty + "    " + total + "<br>");
+    document.write("+                              +<br>");
+    document.write("+ total belanja     " + total + "<br>");
+    document.write("+ diskon            " + diskon + "<br>");
+    document.write("+ pembayaran        " + pembayaran + "<br>");
+    document.write("+                              +<br>");
+    document.write("++++++++++++++++++++++++++++++++<br>");
+    document.write("</pre>");
+    </script>
+
+</body>
+</html>
